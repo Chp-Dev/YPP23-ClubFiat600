@@ -864,7 +864,13 @@ body.dark .footer .credit{
 
 @media (max-width: 420px) {
     html{
-        font-size: 50%;
+        font-size: 30%;
+    }
+    .inicio{
+        margin-top: 25px;
+    }
+    .inicio h1 {
+        font-size: 20px;
     }
 }
 
