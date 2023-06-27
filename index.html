@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concesionaria de Autos</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header ">
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">
+            <img src="./img/logo1.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#vehiculo">Album</a>
+            <a href="#opiniones">opiniones</a>
+            <a href="#contactos">contacto</a>
+        </nav>
+        
+        
+
+        <div class="btns">
+            <div id="acceder-btn">
+                <buttom class="btn">Acceder</buttom>
+                <i class="far fa-user"></i>
+            </div>
+    
+            <buttom class="switch" id="switch">
+                <span><i class="fas fa-sun"></i></span>
+                <span><i class="fas fa-moon"></i></span>
+            </buttom>
+        </div>
+
+    </header>
+
+    <div class="acceder-form-container">
+        <span class="fas fa-times" id="close-acceder-form"></span>
+
+        <form action="">
+            <h3>ingresar usuario</h3>
+            <input type="email" placeholder="correo electronico" class="caja">
+            <input type="password" placeholder="contraseña" class="caja">
+            <p>Olvidaste tu contraseña? <a href="#">Click aqui</a></p>
+            <input type="submit" value="Nuevo usuario" class="btn">
+            <p>inicie seccion con</p>
+            <div class="buttons">
+                <a href="#" class="btn">google</a>
+                <a href="#" class="btn">facebook</a>
+            </div>
+            <p>No tengo cuenta <a href="#">Crear una</a></p>
+        </form>
+    </div>
+
+    <section class="inicio" id="inicio">
+        
+        <h1 class="incio-site">Club del Fiat 600</h1>
+
+        <img class="incio-site" data-aos="flip-left" data-aos-delay="450" src="img/home-img.png" alt="inicio">
+
+    </section>
+
+    <section class="iconos-container">
+
+    <div class="iconos">
+        <i class="fas fa-home"></i>
+        <div class="content">
+            <h3>200+</h3>
+            <p>Eventos</p>
+        </div>
+    </div>
+
+    <div class="iconos">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>320+</h3>
+            <p>Fiat 600</p>
+        </div>
+    </div>
+
+    <div class="iconos">
+        <i class="fas fa-users"></i>
+        <div class="content">
+            <h3>400+</h3>
+            <p>Suscriptores</p>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="vehiculo" id="vehiculo">
+
+    <h2 class="heading"> Ultimo Evento </h2>
+
+    <div class="swiper mySwiper vehiculo-slider ">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide caja">
+                <img data-aos="flip-left" src="./img/fiatespo1.png" alt="">
+            </div>
+
+            <div class="swiper-slide caja">
+                <img data-aos="flip-left" src="./img/fiatespo2.png" alt="">
+            </div>
+
+            <div class="swiper-slide caja">
+                <img data-aos="flip-left" src="./img/fiatespo3.png" alt="">
+            </div>
+
+            <div class="swiper-slide caja">
+                <img data-aos="flip-left" src="./img/fiatespo4.png" alt="">
+            </div>
+
+            <div class="swiper-slide caja">
+                <img data-aos="flip-left" src="./img/fiatespo5.png" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+</section>
+<section class="modelos" id="modelos">
+
+    <h2 class="heading"> Suscriptores </h2>
+
+    <div class="swiper mySwiper modelos-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide caja">
+                <img data-aos="flip-left" src="./img/fiat1.png" alt="">
+            </div>
+
+            <div class="swiper-slide caja">
+                <img data-aos="flip-left" src="./img/fiat2.png" alt="">
+            </div>
+
+            <div class="swiper-slide caja">
+                <img data-aos="flip-left" src="./img/fiat3.png" alt="">
+            </div>
+
+            <div class="swiper-slide caja">
+                <img data-aos="flip-left" src="./img/fiat4.png" alt="">
+            </div>
+
+            <div class="swiper-slide caja">
+                <img data-aos="flip-left" src="./img/fiat5.png" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<section class="opiniones" id="opiniones">
+    <h2 class="heading">Opiniones del Club</h2>
+
+    <div class="swiper opiniones-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="usuario">
+                    <img src="img/pic-1.png" alt="">
+                    <div class="usuario-info">
+                        <h3>Martín Gómez Rodríguez</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>El Club del Fiat 600 es simplemente increíble. Es un espacio donde los amantes de este icónico automóvil pueden
+                reunirse, intercambiar experiencias y compartir su pasión por estos clásicos. Es maravilloso ver cómo se preserva y se
+                celebra la historia de estos vehículos.
+                </p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="usuario">
+                    <img src="img/pic-2.png" alt="">
+                    <div class="usuario-info">
+                        <h3>Valentina Martínez Morales</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>No hay nada como la comunidad del Club del Fiat 600. Es un lugar donde se forjan amistades duraderas y se crea un ambiente de camaradería. Todos compartimos la misma admiración por estos autos y eso crea un vínculo especial entre nosotros.
+                </p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="usuario">
+                    <img src="img/pic-3.png" alt="">
+                    <div class="usuario-info">
+                        <h3>Lucas Sánchez Romero</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>No hay nada como la comunidad del Club del Fiat 600. Es un lugar donde se forjan amistades duraderas y se crea un
+                ambiente de camaradería. Todos compartimos la misma admiración por estos autos y eso crea un vínculo especial entrenosotros.
+                </p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="usuario">
+                    <img src="img/pic-4.png" alt="">
+                    <div class="usuario-info">
+                        <h3>Sofía López García</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Si necesitas ayuda con tu Fiat 600, el Club es el lugar perfecto para encontrarla. La comunidad está llena de personas
+                expertas y dispuestas a brindar consejos y asistencia. Es un recurso inestimable para los propietarios de estos vehículos clásicos.
+                </p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="usuario">
+                    <img src="img/pic-5.png" alt="">
+                    <div class="usuario-info">
+                        <h3>Juan Pablo Fernández González</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Una de las cosas que más me gusta del Club del Fiat 600 es que nos permite sumergirnos en la historia de estos autos. A
+                través de eventos temáticos, exhibiciones y conversaciones con otros miembros, aprendemos sobre la evolución del modelo
+                y su impacto en la cultura automotriz.
+                </p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="usuario">
+                    <img src="img/pic-6.png" alt="">
+                    <div class="usuario-info">
+                        <h3>Sofía López García</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>El Club del Fiat 600 nos da la oportunidad de disfrutar de la conducción de estos vehículos clásicos en salidas
+                grupales. Sentir el viento en el cabello mientras recorres las calles en tu Fiat 600 rodeado de otros apasionados
+                conductores es una experiencia verdaderamente única y emocionante.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<section class="contactos" id="contactos">
+
+    <h2 class="heading"> Contactanos </h2>
+
+        <form action="">
+            <h3>Suscribete</h3>
+            <input type="text" placeholder="Escribe tu nombre" class="box">
+            <input type="email" placeholder="Escribe tu correo electronico" class="box">
+            <input type="tel" placeholder="tema" class="box">
+            <textarea placeholder="tu mensaje" class="box" cols="30" rows="10"></textarea>
+            <input type="submit" value="enviar mensaje" class="btn">
+        </form>
+
+</section>
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>informacion de contacto</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-123 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> fiat600@autosclasicos.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Chepes - La Rioja </a>
+        </div>
+
+        <div class="box">
+            <h3>Nuestras redes sociales</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+        </div>
+
+    </div>
+
+</section>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <script>
+
+        AOS.init({
+            duration: 800,
+        });
+        
+    </script>
+</body>
+</html>
