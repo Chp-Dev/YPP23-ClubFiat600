@@ -803,6 +803,9 @@ body.dark .footer .credit{
     .site-header.activar{
         padding: 2rem;
     }
+    .inicio{
+        margin-top: 25px;
+    }
 }
 
 @media (max-width: 760px) {
@@ -855,7 +858,9 @@ body.dark .footer .credit{
         margin: 2rem;
         font-size: 2rem;
     }
-
+    .inicio{
+        margin-top: 25px;
+    }
     .switch i{
         font-size: 1rem;
     }
